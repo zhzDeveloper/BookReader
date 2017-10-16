@@ -13,5 +13,5 @@ class ZBookListModel: NSObject {
     var title: String? = nil
     
     var filePath: String? = nil
-    
+
 }

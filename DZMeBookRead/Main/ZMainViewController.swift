@@ -43,6 +43,12 @@ class ZMainViewController: DZMViewController {
             bookModel.filePath = documents + "/" + book
             dataSource.append(bookModel)
         }
+        if dataSource.count == 0 {
+            let bookModel: ZBookListModel = ZBookListModel()
+            bookModel.title = "demo"
+            bookModel.filePath = Bundle.main.path(forResource: "demo", ofType: ".txt")
+            dataSource.append(bookModel)
+        }
         tableView.reloadData()
         print(dataSource as Any)
     }

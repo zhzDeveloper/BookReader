@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DEE5F2A1F94B72100CA0499 /* demo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DEE5F291F94B72000CA0499 /* demo.txt */; };
 		9DEF49521F949061001BA772 /* ZBookConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF49511F949061001BA772 /* ZBookConstanst.swift */; };
 		9DEF49541F94937E001BA772 /* ZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF49531F94937E001BA772 /* ZMainViewController.swift */; };
 		9DEF49581F949896001BA772 /* ZBookListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF49571F949896001BA772 /* ZBookListModel.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DEE5F291F94B72000CA0499 /* demo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.txt; sourceTree = "<group>"; };
 		9DEF49511F949061001BA772 /* ZBookConstanst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBookConstanst.swift; sourceTree = "<group>"; };
 		9DEF49531F94937E001BA772 /* ZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainViewController.swift; sourceTree = "<group>"; };
 		9DEF49571F949896001BA772 /* ZBookListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBookListModel.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			children = (
 				AF403E6E1E8CF598004C0612 /* LaunchScreen.storyboard */,
 				9DEF49511F949061001BA772 /* ZBookConstanst.swift */,
+				9DEE5F291F94B72000CA0499 /* demo.txt */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -506,9 +509,9 @@
 				TargetAttributes = {
 					AF403E611E8CF598004C0612 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = A3D99DT85D;
+						DevelopmentTeam = C73536GE3D;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					AF403E751E8CF598004C0612 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -550,6 +553,7 @@
 				AF403E701E8CF598004C0612 /* LaunchScreen.storyboard in Resources */,
 				AF6322A81EC960E9001B92D4 /* MBProgressHUD.bundle in Resources */,
 				AF403E6D1E8CF598004C0612 /* Assets.xcassets in Resources */,
+				9DEE5F2A1F94B72100CA0499 /* demo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,16 +768,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A3D99DT85D;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C73536GE3D;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DZMeBookRead/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.duxiaoshuo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.xiaoshuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "2f6f66e7-79c9-43c1-bb55-2f08d92db43c";
+				PROVISIONING_PROFILE_SPECIFIER = bookReaderDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "DZMeBookRead/DZMeBookRead-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -785,17 +789,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A3D99DT85D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C73536GE3D;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DZMeBookRead/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.duxiaoshuo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.xiaoshuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "30aa0c70-346e-4974-a787-b12b61a6941f";
+				PROVISIONING_PROFILE_SPECIFIER = bookReaderDis;
 				SWIFT_OBJC_BRIDGING_HEADER = "DZMeBookRead/DZMeBookRead-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
