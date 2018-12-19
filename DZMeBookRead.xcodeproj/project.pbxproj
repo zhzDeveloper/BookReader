@@ -509,7 +509,7 @@
 				TargetAttributes = {
 					AF403E611E8CF598004C0612 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C73536GE3D;
+						DevelopmentTeam = RPHGJA2XNE;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
@@ -769,15 +769,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = C73536GE3D;
+				DEVELOPMENT_TEAM = RPHGJA2XNE;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DZMeBookRead/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.xiaoshuo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yupaopao.xiaoshuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2f6f66e7-79c9-43c1-bb55-2f08d92db43c";
-				PROVISIONING_PROFILE_SPECIFIER = bookReaderDev;
+				PROVISIONING_PROFILE = "84a3b844-a36f-4317-8db1-df22cfc9f895";
+				PROVISIONING_PROFILE_SPECIFIER = YppWildcardDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "DZMeBookRead/DZMeBookRead-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -791,15 +791,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = C73536GE3D;
+				DEVELOPMENT_TEAM = RPHGJA2XNE;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DZMeBookRead/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhz.xiaoshuo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yupaopao.xiaoshuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "30aa0c70-346e-4974-a787-b12b61a6941f";
-				PROVISIONING_PROFILE_SPECIFIER = bookReaderDis;
+				PROVISIONING_PROFILE = "79d083cf-2b53-4617-bfc9-b05808b79e64";
+				PROVISIONING_PROFILE_SPECIFIER = YppWildcardAdhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "DZMeBookRead/DZMeBookRead-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
