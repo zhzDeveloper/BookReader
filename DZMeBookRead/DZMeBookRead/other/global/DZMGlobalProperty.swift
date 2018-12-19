@@ -59,6 +59,7 @@ let DZMMenuUIColor:UIColor = UIColor.black.withAlphaComponent(0.85)
 // MARK: -- 字体支持
 let DZMFont_10:UIFont = UIFont.systemFont(ofSize: 10)
 let DZMFont_12:UIFont = UIFont.systemFont(ofSize: 12)
+let DZMFont_14:UIFont = UIFont.systemFont(ofSize: 14)
 let DZMFont_18:UIFont = UIFont.systemFont(ofSize: 18)
 
 

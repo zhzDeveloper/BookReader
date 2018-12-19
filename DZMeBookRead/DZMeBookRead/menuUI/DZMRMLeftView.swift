@@ -67,7 +67,7 @@ class DZMRMLeftView: DZMRMBaseView,DZMSegmentedControlDelegate,UITableViewDelega
         super.layoutSubviews()
         
         // contentView
-        let contentViewW:CGFloat = width * 0.6
+        let contentViewW:CGFloat = width * 0.8
         contentView.frame = CGRect(x: -contentViewW, y: 0, width: contentViewW, height: height)
         
         // topView
@@ -110,8 +110,8 @@ class DZMRMLeftView: DZMRMBaseView,DZMSegmentedControlDelegate,UITableViewDelega
             cell?.textLabel?.text = readMenu.vc.readModel.readChapterListModels[indexPath.row].name
             
             cell?.textLabel?.numberOfLines = 1
-            
-            cell?.textLabel?.font = DZMFont_18
+            cell?.textLabel?.adjustsFontSizeToFitWidth = true
+            cell?.textLabel?.font = DZMFont_14
             
         }else{ // 书签
             
@@ -133,7 +133,7 @@ class DZMRMLeftView: DZMRMBaseView,DZMSegmentedControlDelegate,UITableViewDelega
         
         if type == 0 { // 章节
             
-            return 44
+            return 35
             
         }else{ // 书签
             
